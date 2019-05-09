@@ -1,0 +1,847 @@
+*
+{
+    padding: 0;
+    margin: 0;
+   
+}
+
+/* start of the NavBar */
+ 
+/*---------------------  navbar --------------------- */
+.navbar{
+
+  height: 80px;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0));
+	height: 100px;
+  	
+}
+.navbar:hover{
+	background: rgba(0,0,0,0.5);
+	
+}
+.navbar ul 
+{
+  list-style: none;
+  float: right;	
+  	
+}
+.navbar li{
+  float: left;
+	
+ 
+  
+}
+.navbar li a{
+  margin-right: 40px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  
+}
+nav ul li button{
+	margin-top: -10px;
+  margin-right: 20px;
+  width: 80px;
+  height: 40px;
+  background: white;
+  color: white;
+  border-radius: 6px;
+  border: 0px;
+  transition: .5s;
+  
+
+ 
+ }
+nav ul li button span
+{
+  color: black;
+  font-size: 20px;
+  font-family: serif;
+}
+
+
+nav h1
+{
+  margin-left: 35px;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  color: white;
+}
+
+
+/*----------------------- logo -------------------*/
+  
+.logo
+{
+  position: relative;
+  left: 30px;
+  top: 8px;
+}
+.logo span
+{
+  position: relative;
+  top: 10px;
+}
+.logo span i{
+  font-size: 50px;
+  color: white;
+}
+
+/* End of the navbar */
+/* Malaysia */
+/* intro to the page */
+.banner{
+    background-image: url(images/header.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1365px;
+    height: 540px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    
+}
+
+.banner h1{
+    color:  #6F8CA5;
+    text-shadow: 5px 5px 10px rgba(0,0,0,1);
+    font-size: 70px;
+    font-family: 'Do Hyeon';
+}
+body{
+     padding: 0;
+     margin: 0;
+     
+}
+.body2
+{
+    background: #EEF1F8;
+}
+.button1
+{
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    background: #F6755F;
+    box-shadow: 10px 10px rgba(10,25,20,0.4);
+    font-size: 14px;
+}
+.dropdown1{
+     position: relative;
+    display: inline-block;
+}
+.dropdown-content1{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+}
+.dropdown-content1 a {
+    color: #6F8CA5;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    font-family: 'Gaegu';
+    
+}
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+    
+}
+.kuala:hover{
+    background: #D9CCBE
+}
+.george:hover{
+    background: #D9CCBE
+}
+.malaca:hover{
+    background: #D9CCBE
+}
+/* End pf the intro */
+/* start of the container */
+.container
+{
+    padding: 10px;
+    text-align: center;
+
+   
+}
+#journey
+{
+    font-size: 36px;
+    font-family: 'Gamja Flower';
+   
+}
+#information
+{
+    font-size: 16px;
+}
+.kualaLumpur
+{
+    
+    display: flex;
+}
+.pic1
+{
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+	
+     
+}
+/*  to edit the middle images in malysia */
+
+
+/* start of Iceland */
+.iceland
+{
+    background-image: url(images/ice_land.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 615px;
+    color: white;
+   
+    font-family: 'Exo';
+    
+}
+.iceland pre 
+{
+    font-size: 18px;
+	 text-align: center;
+}
+.iceland pre h2
+{	 text-align: center;
+    color: #EAEAEA;
+    font-size: 28px;
+   
+}
+.p1
+{
+    font-family: 'Exo';
+	 text-align: center;
+    
+}
+.iceland .icehed
+{   text-align: center;
+    padding-top: 30px;
+    font-size: 70px;
+    color: white;
+    text-shadow: 5px 5px 10px rgba(0,0,0,1);
+    font-family: 'Do Hyeon';
+}
+.iceland h2
+{	 text-align: center;
+     color: black;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.Capital
+{
+    padding: 50px;
+    display: flex;
+    background: linear-gradient(white,#0C6780);
+}
+.Capital img{
+    width: 450px;
+    height: 350px;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.8);
+}
+.section1
+{
+    padding: 40px;
+    background: linear-gradient(white, aliceblue);
+   
+}
+.box
+{
+    margin-left: 250px;
+    margin-bottom: 30px;
+    width: 800px;
+    height: 400px;
+    box-shadow: 5px 10px 10px 10px rgba(0,0,0,0.6);
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    background: white;
+    background: linear-gradient(white, #D0DFFF);
+}
+.box pre{
+    padding: 30px 50px; 
+    font-family: 'Exo';
+}
+.box h3
+{
+    padding: 15px 10px;
+    text-align: center;
+    font-family: 'Exo';
+}
+
+.photosection
+{
+    display: flex;
+    background: linear-gradient(aliceblue,#BFBFBF);
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.6);
+}
+.photosection pre{
+    text-align: center;
+    padding: 80px 0 0 0;
+    font-family: 'Exo';
+
+}
+.photosection pre h2
+{
+    padding: 0 0 30px 0;
+    
+}
+@keyframes image{
+    from{border-radius: 0;}
+    to{border-radius: 100%;}
+}
+.photo1:hover
+{
+   animation-name: image;
+   animation-duration: 2s;
+   animation-fill-mode: forwards;
+   
+   
+  
+}
+.photo2
+{
+   padding: 0 0 0 20px;
+   
+}
+.photo2:hover
+{
+   animation-name: image;
+   animation-duration: 2s;
+   animation-fill-mode: forwards;
+   
+   
+}
+.vid
+{
+    background: linear-gradient(aliceblue, white);
+}
+.vid video{
+    width: 900px;
+    height: 600px;
+    padding: 0 220px;
+    
+}
+.vid2
+{
+    border-bottom-left-radius: 35%;
+    border-top-right-radius: 35%
+}
+.vid h3
+{
+    padding: 0 10px;
+    text-align: center;
+}
+
+/* End of Iceland */
+/* Start of Venice */
+.body2
+{
+     background: linear-gradient(white,lightblue)
+}
+.text1
+{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Do Hyeon';
+    color: gray;
+    background-image: url(images/pexels-photo-67946.jpeg);
+    width: 1309px;
+    height: 515px;
+    background-repeat: no-repeat
+
+}
+.text1 h3
+{
+     font-size: 22px;
+}
+.text1 h1
+{
+    padding: 30px;
+}
+.s2
+{
+    color:  lightblue;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+    font-size: 40px;
+    font-family: 'Do Hyeon';
+}
+.paragraph
+{
+    padding: 50px;
+    font-family: 'Exo';
+    font-size: 20px;
+    margin: 100px 250px;
+    width: 800px;
+    height: 200px;
+    box-shadow: 10px 10px 16px 10px rgba(0,0,0,0.8);
+    background: linear-gradient(white,gray)
+    
+      
+}
+.Third
+{
+   
+    font-family: 'Exo';
+    font-size: 25px;
+    margin: 0 0 0 400px;
+}
+.slider-show {
+    width: 210px;
+    height: 300px;
+    margin: 100px 600px;
+    position: relative; 
+    perspective: 1000px; /* 3D effect */
+}
+@keyframes slider{
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(360deg);
+	}
+}
+
+.slider-show .image-show{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: slider 40s infinite linear;
+}
+.slider-show .image-show span {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #000;
+    overflow: hidden;
+}
+.slider-show span:nth-child(1) {
+    transform:  rotateY(0deg)   translateZ(288px);
+}
+.slider-show span:nth-child(2) {
+    transform:  rotateY(40deg)   translateZ(288px);
+}
+.slider-show span:nth-child(3) {
+    transform:  rotateY(80deg)   translateZ(288px);
+}
+.slider-show span:nth-child(4) {
+    transform:  rotateY(120deg)   translateZ(288px);
+}
+.slider-show span:nth-child(5) {
+    transform:  rotateY(160deg)   translateZ(288px);
+}
+.slider-show span:nth-child(6) {
+    transform:  rotateY(200deg)   translateZ(288px);
+}
+.slider-show span:nth-child(7) {
+    transform:  rotateY(240deg)   translateZ(288px);
+}
+.slider-show span:nth-child(8) {
+    transform:  rotateY(280deg)   translateZ(288px);
+}
+.slider-show span:nth-child(9) {
+    transform:  rotateY(320deg)   translateZ(288px);
+}
+.slider-show img {
+    cursor: pointer;
+	transition: all .5s ease;
+}
+.boats
+{
+    margin: 200px 300px;
+    width: 800px;
+    height: 400px;
+    box-shadow: 10px 10px 16px 10px rgba(0,0,0,0.8);
+    background: white;
+    border-radius: 25%;
+   
+    
+}
+.boats h2
+{
+    text-align: center;
+    padding: 30px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    font-size: 32px;
+    font-family: 'Do Hyeon';
+    color: darkgray;
+}
+.boats img
+{
+    padding: 20px 40px;
+    width: 250px;
+    height: 200px;
+    border-radius: 25%;
+    
+}
+.Gandola
+{
+     display: flex;
+}
+.boats p
+{
+    padding: 20px;
+    font-family: 'Exo';
+    font-size: 20px;
+    color: #4A78AA
+}
+.ven
+{
+    display: flex;
+}
+.B
+{
+   
+   margin: 50px 50px;
+   margin-left: 210px;
+   float: right;
+
+}
+.A
+{
+    margin: 50px auto;
+    margin-left: 50px;
+}
+.ven p
+{
+    padding: 40px 0;
+    font-family: 'Exo';
+    font-size: 26px;
+}
+.ven img
+{
+    box-shadow:  10px 10px 16px 10px rgba(0,0,0,0.8);
+}
+
+/* End of Venice */
+/* start of india */
+.india-hed
+{	
+	height: 506px;
+	width: 100%;
+	background-image:  url(images/india/images/background.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.india-hed .header2-1 button 
+{
+	font-size: 80px;
+	margin-top: 202px;
+	margin-left: 565px;
+	text-transform: uppercase;
+	opacity: 0.6;
+	background-color: #0D080B;
+	color: #D3D0D9;
+	
+}
+.header2-1
+{
+	width: 100%;
+	height: 100%;
+	
+}
+.sec1I
+{
+	background-color: #D3D0D9;
+	text-align: center;
+	width: 100%;
+	height: 700px;
+	
+}
+.sec1I h2
+{
+	font-size: 40px;
+	color: #3599A7;
+	font-weight: 800;
+	font-family: fantasy;
+	padding-top: 50px;
+	
+}
+.sec1I p
+{
+	padding: 50px;
+	text-align: center;
+	font-size: 25px;
+	color: #0D080B;
+	
+}
+.sec1I video
+{
+	border-radius: 10%;
+}
+#sec2
+{
+	height: 500px;
+	background: linear-gradient(#D3D0D9,#3599A7);
+}
+.dropdown 
+{
+	text-align: center;
+	color: #3599A7;
+	font-family: fantasy
+}
+
+.dropdown 
+{
+	position: relative;
+    display: inline-block;
+	top: 50px;
+	left: 350px;
+	text-transform: capitalize;
+	font-size: 40px;
+	
+}
+.dropdown-elements
+{
+	display: none;
+	position: absolute;
+	background-color: #D3D0D9;
+	min-width: 560px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 20px 20px;
+	font-weight: 700;
+    z-index: 1;
+	color: #3599A7;
+	font-family: sans-serif;
+	border: double 10px  #3599A7;
+	border-radius: 20%;
+	text-transform: capitalize;
+
+}
+.dropdown-elements ul
+{
+	list-style: none;
+	
+}
+.dropdown-elements ul li a
+{
+	text-decoration:none;
+	color: #3599A7;
+	
+}
+.dropdown:hover .dropdown-elements
+{
+	display: block;
+}
+.Jama-masjid
+{
+	height: 700px;;
+	width: 100%;
+	background-image: url(images/india/images/pexels-photo-889545.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.Jama-masjid h2, .monkey-temple h2
+{
+	font-size: 50px;
+	font-family: monospace;
+	color: #C4B5B2;
+	padding: 50px 40px;
+	text-shadow: 10px 5px 10px black;
+	font-weight: 800;
+}
+.jama-masjisI
+{
+	display: inline-block;
+	background-image: url(images/india/images/19575234_795950160554751_8035028495482650123_o.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	width: 500px;
+	margin-left:  50px;
+	box-shadow: 10px 10px 10px #C4B5B2;
+	border: solid 2px black;
+}
+.Jama-masjid .sec12 p
+{
+	background-color: #C4B5B2;
+	font-size: 25px;
+	display: inline-block;
+	text-align: center;
+	float: right;
+	width: 700px;
+	margin: 80px 30px 0 ;
+	padding: 10px;
+	border: outset 5px #8C7E6F;
+}
+.monkey-temple
+{
+	background-color: #2C9C9E;
+	height: 700px;
+}
+.monkey-templeI
+{
+	float: right;
+	display: inline-block;
+	background-image: url(images/india/images/monkey.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	width: 500px;
+	margin-right:  50px;
+	box-shadow: 10px 10px 10px #C4B5B2;
+	border: solid 2px black;
+
+}
+.monkey-temple p
+{
+
+	background-color: #C4B5B2;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	float: left;
+	width: 700px;
+	margin: 80px 32px 0 ;
+	padding: 10px;
+	border: outset 5px #8C7E6F;
+}
+#sec3
+{
+	background-image: url(images/india/images/pexels-photo-1.jpeg);
+	width: 100%
+}
+#Humayuns-tomb
+{
+	background-image: url(images/india/images/Humayuns-tomb.jpg);
+}
+.grid 
+{
+	
+	height: 100%;
+	padding-left: 10px;
+	padding-top: 50px;
+	display: inline-block;
+	text-align: center;
+	font-size: 50px;
+	text-transform: uppercase;
+	font-family: monospace;
+	background: linear-gradient(90deg,#1E696A,#32B0B2,#58CED0,#96E0E1,#B5E9EA,#B9FDF3)
+}
+.grid img
+{
+	width: 310px;
+	height: 310px;
+	margin: 10px;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 100%;
+}
+.grid img:hover
+{
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+#copyR
+{
+	font-size: 20px;
+	float: right;
+	padding-right: 200px;
+	color: #2C9C9E;
+}
+.border 
+{	width: 200px;
+	border: solid 5px #78644E;
+	color: #78644E;
+	margin: 30px auto;
+	border-radius: 30%;
+	padding: 10px;
+}
+
+
+
+
+/* end of india*/
+/* Start of the footer */
+.icons
+{
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+#icons
+{
+    padding: 10px;
+}
+.fa
+{
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook
+{
+    background-color: #3A589E;
+    color: white;
+    
+  
+}
+.fa-twitter
+{
+    background-color: #5FA8DC;
+     color: white;
+   
+}
+.fa-instagram
+{
+   background-color: #D23095;
+     color: white;
+   
+}
+
+footer
+{
+    color: #5a5c51;
+    text-align: center;
+    font-size: 18px;
+}
+/* End of the footer */

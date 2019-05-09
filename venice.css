@@ -1,0 +1,328 @@
+*
+{
+    padding: 0;
+    margin: 0;
+   
+}
+
+/* start of the NavBar */
+ 
+/*---------------------  navbar --------------------- */
+.navbar{
+
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0));
+	height: 100px;
+	
+  	
+}
+.navbar:hover{
+	background: rgba(0,0,0,0.5);
+	
+}
+.navbar ul 
+{
+  list-style: none;
+  float: right;	
+  	
+}
+.navbar li{
+  float: left;
+	
+ 
+  
+}
+.navbar li a{
+  margin-right: 40px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  
+}
+nav ul li button{
+	margin-top: -10px;
+  margin-right: 20px;
+  width: 80px;
+  height: 40px;
+  background: white;
+  color: white;
+  border-radius: 6px;
+  border: 0px;
+  transition: .5s;
+  
+
+ 
+ }
+nav ul li button span
+{
+  color: black;
+  font-size: 20px;
+  font-family: serif;
+}
+
+
+nav h1
+{
+  margin-left: 35px;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  color: white;
+}
+
+
+/*----------------------- logo -------------------*/
+  
+.logo
+{
+  position: relative;
+  left: 30px;
+  top: 8px;
+}
+.logo span
+{
+  position: relative;
+  top: 10px;
+}
+.logo span i{
+  font-size: 50px;
+  color: white;
+}
+
+/* End of the navbar */
+/* Start of Venice */
+body
+{
+     background: linear-gradient(white,lightblue)
+}
+.text1
+{
+    
+    padding:0;
+    
+    color: gray;
+    background-image: url(images/pexels-photo-67946.jpeg);
+    width: 100%;
+    height: 515px;
+    background-repeat: no-repeat
+
+}
+.text1 h3
+{	text-align: center;
+     font-size: 22px;
+	font-family: 'Do Hyeon';
+}
+.welcome
+{	font-family: 'Do Hyeon';
+    padding: 30px;
+	text-align: center;
+}
+.s2
+{
+    color:  lightblue;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+    font-size: 40px;
+    font-family: 'Do Hyeon';
+}
+.paragraph
+{
+    padding: 50px;
+    font-family: 'Exo';
+    font-size: 20px;
+    margin: 100px 250px;
+    width: 800px;
+    height: 200px;
+    box-shadow: 10px 10px 16px 10px rgba(0,0,0,0.8);
+    background: linear-gradient(white,gray)
+    
+      
+}
+.Third
+{
+   
+    font-family: 'Exo';
+    font-size: 25px;
+    margin: 0 0 0 400px;
+}
+.slider-show {
+    width: 210px;
+    height: 300px;
+    margin: 100px 600px;
+    position: relative; 
+    perspective: 1000px; /* 3D effect */
+}
+@keyframes slider{
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(360deg);
+	}
+}
+
+.slider-show .image-show{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: slider 40s infinite linear;
+}
+.slider-show .image-show span {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #000;
+    overflow: hidden;
+}
+.slider-show span:nth-child(1) {
+    transform:  rotateY(0deg)   translateZ(288px);
+}
+.slider-show span:nth-child(2) {
+    transform:  rotateY(40deg)   translateZ(288px);
+}
+.slider-show span:nth-child(3) {
+    transform:  rotateY(80deg)   translateZ(288px);
+}
+.slider-show span:nth-child(4) {
+    transform:  rotateY(120deg)   translateZ(288px);
+}
+.slider-show span:nth-child(5) {
+    transform:  rotateY(160deg)   translateZ(288px);
+}
+.slider-show span:nth-child(6) {
+    transform:  rotateY(200deg)   translateZ(288px);
+}
+.slider-show span:nth-child(7) {
+    transform:  rotateY(240deg)   translateZ(288px);
+}
+.slider-show span:nth-child(8) {
+    transform:  rotateY(280deg)   translateZ(288px);
+}
+.slider-show span:nth-child(9) {
+    transform:  rotateY(320deg)   translateZ(288px);
+}
+.slider-show img {
+    cursor: pointer;
+	transition: all .5s ease;
+}
+.boats
+{
+    margin: 200px 300px;
+    width: 800px;
+    height: 400px;
+    box-shadow: 10px 10px 16px 10px rgba(0,0,0,0.8);
+    background: white;
+    border-radius: 25%;
+   
+    
+}
+.boats h2
+{
+    text-align: center;
+    padding: 30px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    font-size: 32px;
+    font-family: 'Do Hyeon';
+    color: darkgray;
+}
+.boats img
+{
+    padding: 20px 40px;
+    width: 250px;
+    height: 200px;
+    border-radius: 25%;
+    
+}
+.Gandola
+{
+     display: flex;
+}
+.boats p
+{
+    padding: 20px;
+    font-family: 'Exo';
+    font-size: 20px;
+    color: #4A78AA
+}
+.ven
+{
+    display: flex;
+}
+.B
+{
+   
+   margin: 50px 50px;
+   margin-left: 210px;
+   float: right;
+
+}
+.A
+{
+    margin: 50px auto;
+    margin-left: 50px;
+}
+.ven p
+{
+    padding: 40px 0;
+    font-family: 'Exo';
+    font-size: 26px;
+}
+.ven img
+{
+    box-shadow:  10px 10px 16px 10px rgba(0,0,0,0.8);
+}
+
+/* End of Venice */
+/* Start of the footer */
+.icons
+{
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+#icons
+{
+    padding: 10px;
+}
+.fa
+{
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook
+{
+    background-color: #3A589E;
+    color: white;
+    
+  
+}
+.fa-twitter
+{
+    background-color: #5FA8DC;
+     color: white;
+   
+}
+.fa-instagram
+{
+   background-color: #D23095;
+     color: white;
+   
+}
+
+footer
+{
+    color: #5a5c51;
+    text-align: center;
+    font-size: 18px;
+}
+/* End of the footer */
